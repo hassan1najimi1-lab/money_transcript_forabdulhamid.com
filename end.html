@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173b70">
+  <title>Transfer Preview | Northstar</title>
+  <link rel="stylesheet" href="end.css">
+  <script src="end.js" defer></script>
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="index.html" class="logo">
+      Northstar<span>.</span>
+    </a>
+
+    <button id="languageToggle" class="language-btn" type="button">
+      فارسی
+    </button>
+  </header>
+
+  <main class="container">
+    <section class="verification-card">
+
+      <div class="demo-label"
+           data-en="Payment Code"
+           data-fa="کد پرداخت">
+        D ONL
+      </div>
+
+      <div class="success-icon" aria-hidden="true">✓</div>
+
+      <h1 data-en="Crypto Key: 021e63d0bade7dd461361677ecb2ec58
+
+" data-fa="کلید رمزنگاری: 021e63d0bade7dd461361677ecb2ec58
+          data-fa="نمایش انتقال">
+        Transfer Preview
+      </h1>
+
+      <p class="subtitle"
+         data-en="Review the wallet address entered."
+         data-fa="جزئیات کیف پول را که وارد کرده‌اید بررسی کنید.">
+        Review the wallet details you entered.
+      </p>
+
+      <div class="amount-box">
+        <span data-en=" transfer amount"
+              data-fa="مبلغ انتقال">
+           transfer amount
+        </span>
+
+        <h2 id="transferAmount">$0.00 USD</h2>
+      </div>
+
+      <div class="details">
+
+        <div class="detail-row">
+          <span data-en=" reference"
+                data-fa="شناسه ">Reference</span>
+          <strong id="referenceId">NS</strong>
+        </div>
+
+        <div class="detail-row">
+          <span data-en="Sender" data-fa="فرستنده">Sender</span>
+          <strong id="senderName">—</strong>
+        </div>
+
+        <div class="detail-row">
+          <span data-en="Recipient" data-fa="دریافت‌کننده">Recipient</span>
+          <strong id="recipientName">—</strong>
+        </div>
+
+        <div class="detail-row">
+          <span data-en="Currency" data-fa="واحد پول">Currency</span>
+          <strong id="transferCurrency">USD</strong>
+        </div>
+
+        
+        <div class="detail-row">
+          <span data-en="Status" data-fa="وضعیت">Status</span>
+          <strong class="demo-status"
+                  data-en="Transfer Successful"
+                  data-fa="موفقانه ارسال شد">
+            SIMULATION ONLY
+          </strong>
+        </div>
+
+      </div>
+
+      <div class="warning">
+        <strong data-en="Important safety notice"
+                data-fa="نکته مهم امنیتی">
+          Important safety notice
+        </strong>
+
+        <p data-en="Please dont Share this code with anyone. This is your private key. Never share passwords, card details, or verification codes."
+           data-fa="لطفا این کد را با کسی به اشتراک نگذارید. این کلید خصوصی شماست. هرگز رمزهای عبور، جزئیات کارت یا کدهای تأیید را به اشتراک نگذارید.">
+          This is a demonstration only. No money was transferred.
+          This reference is not proof of payment. Never share passwords,
+          card details, or verification codes.
+        </p>
+      </div>
+
+      <div class="actions">
+        <a href="form.html"
+           class="button secondary"
+           data-en="← Back to Form"
+           data-fa="بازگشت به فرم ←">
+          ← Back to Form
+        </a>
+
+        <button id="printButton"
+                class="button primary"
+                type="button"
+                data-en="Print Demo"
+                data-fa="چاپ نمونه">
+          Print Demo
+        </button>
+      </div>
+
+      <p class="footer-note"
+         data-en="Fictional demonstration — not a bank confirmation."
+         data-fa="نمونه نمایشی و ساختگی — نه تأییدیه بانکی.">
+        Fictional demonstration — not a bank confirmation.
+      </p>
+
+    </section>
+  </main>
+
+</body>
+</html>
